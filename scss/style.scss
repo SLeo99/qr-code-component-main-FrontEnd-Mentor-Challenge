@@ -1,0 +1,9 @@
+@use 'reset';
+@use 'variables';
+@use 'main';
+
+body {
+    display: grid;
+    place-content: center;
+    background-color: variables.$Lightgray;
+}

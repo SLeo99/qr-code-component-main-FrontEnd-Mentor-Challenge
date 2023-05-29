@@ -1,0 +1,41 @@
+@use 'variables';
+
+.qr-container {
+    max-width: 20rem;
+    margin-inline: 1.75rem;
+    padding: 1rem;
+    font-family: variables.$fontOutfit;
+    border-radius: 16px;
+    background-color: variables.$White;
+
+    &__img {
+        border-radius: 1rem;
+    }
+
+    &__info {
+        display: grid;
+        gap: 1rem;
+        text-align: center;
+        margin: 1rem .75rem;
+    }
+
+    &__title {
+        font-size: 1.25rem;
+        line-height: margin;
+       font-weight: variables.$fOutfit700;
+        color: variables.$Darkblue;
+    }
+
+    &__text {
+        font-size: .9375rem;
+        color: variables.$Grayishblue;
+        font-weight: variables.$fOutfit400;
+        margin: .2rem 0;
+    }
+}
+
+.attribution {
+    text-align: center;
+    font-size: .8rem;
+    transform: translateY(1.75rem);
+}
